@@ -1,8 +1,32 @@
+# REACT NATIVE & TYPESCRIPT (Calculator App)
+
+---
+
+# Temas puntuales de la sección
+
+### ¿Qué veremos en esta sección?
+
+Crear una calculadora que use componentes re-utilizables, custom hooks, cálculos matemáticos y estilo Flex para lograr el aspecto visual deseado.
+
+- Flex layout
+- useState
+- useRef
+- useCalculadora - Custom Hook
+- View
+- SafeAreaView
+- Text
+- StyleSheets
+- Tema global
+- Estilos condicionales
+- Y más cosas....
+
+---
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
