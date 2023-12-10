@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Text, View} from 'react-native';
+import SplashScreen from 'react-native-splash-screen';
 import {stylesThemeApp} from '../theme/appTheme';
 import {ButtonCalculator} from '../components/ButtonCalculator';
 import {Operators, useCalculator} from '../hooks/useCalculator';
@@ -15,6 +16,11 @@ export const CalculatorScreen = () => {
     handleMathOperation,
     handleCalculatorResult,
   } = useCalculator();
+
+  useEffect(() => {
+    /* si no se llama a este código entonces el SplashScreen se quedaría de forma permanente en la pantalla del dispositivo por las configuraciones que hicimos en la parte de Android y este código lo que hace es ocultar el SplashScreen */
+    SplashScreen.hide();
+  }, []);
 
   return (
     <View style={stylesThemeApp.calculatorContainer}>

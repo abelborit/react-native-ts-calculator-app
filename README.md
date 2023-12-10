@@ -20,6 +20,11 @@ Crear una calculadora que use componentes re-utilizables, custom hooks, cálculo
 - Estilos condicionales
 - Y más cosas....
 
+### \* RECURSOS A USAR:
+
+- react-native-splash-screen: https://github.com/crazycodeboy/react-native-splash-screen
+  - `npm i react-native-splash-screen --save`
+
 ---
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
